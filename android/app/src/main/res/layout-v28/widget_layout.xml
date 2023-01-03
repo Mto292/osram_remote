@@ -1,8 +1,8 @@
 <FrameLayout
     android:id="@+id/widget_root"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="90dp"
-    android:layout_height="99dp">
+    android:layout_width="60dp"
+    android:layout_height="70dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -12,20 +12,23 @@
         <Button
             android:id="@+id/btn_start"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="On"
-            android:outlineSpotShadowColor="@android:color/holo_red_dark"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textSize="12sp" />
+            android:layout_height="35dp"
+            android:text="ON"
+            android:layout_margin="0dp"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
 
         <Button
             android:id="@+id/btn_close"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:layout_below="@+id/btn_start"
             android:layout_marginTop="0dp"
-            android:text="Off"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textSize="12sp" />
+            android:layout_margin="0dp"
+            android:text="OFF"
+            android:background="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
     </RelativeLayout>
 </FrameLayout>
