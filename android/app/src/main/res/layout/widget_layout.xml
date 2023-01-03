@@ -1,0 +1,34 @@
+<FrameLayout
+    android:id="@+id/widget_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="90dp"
+    android:layout_height="99dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="ON"
+            android:layout_margin="4dp"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/btn_start"
+            android:layout_marginTop="0dp"
+            android:layout_margin="4dp"
+            android:text="OFF"
+            android:background="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</FrameLayout>
